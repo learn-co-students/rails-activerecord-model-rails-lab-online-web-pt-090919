@@ -1,8 +1,13 @@
 class Student < ActiveRecord::Base 
     
-    def student_name
-        # @student = Student.new
-        self.first_name + self.last_name.to_s
+    def to_s
+        
     end
+
+    # def to_s
+    #     @student
+    # end 
+        
+    
 
 end
